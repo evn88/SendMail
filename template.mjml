@@ -1,0 +1,55 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="320px" />
+    <mj-preview>О переходе на новый почтовый сервер</mj-preview>
+    <mj-style inline="inline">
+      .link-nostyle {
+        color: black;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#0855ac" link="white">
+
+    <mj-section background-color="#2bb673">
+      <mj-column>
+        <mj-text font-style="italic" font-size="20pt" color="white">Уважаемый(ая) %USERNAME%!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F4F4F2">
+      <mj-column>
+        <mj-text font-size="17px" color="black" font-family="helvetica"><b>Обратите внимание! Все кто получил первое письмо содержало ошибочные данные</b></mj-text>
+        <mj-text font-size="17px" color="black" font-family="helvetica">На этой неделе будет осуществлен переход на новый корпоративный почтовый сервер. Точная дата будет сообщена дополнительным письмом. В данное время сервер работает в режиме тестовой эксплуатации.</mj-text>
+        <mj-text font-size="17px" color="black" font-family="helvetica">Доступ к почтовому серверу работает через веб-браузер по адресу:  <a href="https://zimbra.voel.ru" color="white" class="link-nostyle">https://zimbra.voel.ru</a>. Так же для доступа к серверу можно использовать ярлык на рабочем столе "ПОЧТА ВОЭ (Zimbra)".</mj-text>
+        <mj-text font-size="17px" color="black" font-family="helvetica">Старые письма останутся в почтовой программе Outlook, далее будет осуществлен перенос писем на новый сервер.</mj-text>
+        <mj-text font-size="17px" color="black" font-family="helvetica" font-weight="bold"><a href="http://wiki.web.voenet.local/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5_%D1%81_web-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B5%D0%B9_%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B0_Zimbra" color="white" class="link-nostyle">Инструкция по работе с почтой</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text align="left">
+          <h2>Для входа используйте:</h2>
+          <p>Имя пользователя: <b>%LOGIN%</b></p>
+          <p>Пароль: <b>%PASS%</b></p>
+        </mj-text>
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0 20px" /></mj-divider>
+          
+          <mj-text font-size="17px" color="black" font-family="helvetica"><p><b>Обязательно запишите эти данные для входа в надежное место!</b></p>Напоминаем, что по правилам корпоративной политики, пароли нельзя хранить в открытом доступе например на листочке приклееном к монитору и т.п.</mj-text>
+        <mj-image width="60" src="http://web.voenet.local/img/mail_b.png" />
+        <mj-button font-family="Helvetica" background-color="#0855ac" color="white" href="https://zimbra.voel.ru">
+          Открыть новую почту
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#0855ac" padding="20px">
+      <mj-column>
+      <mj-text align="right" color="white" font-family="helvetica">
+        Отдел информационных технологий ПАО ВОЭ - 2018
+      </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
